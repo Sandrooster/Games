@@ -48,9 +48,22 @@
     <sprite>sprites\spr_dispenser_cata</sprite>
     <sprite>sprites\spr_power_icon</sprite>
     <sprite>sprites\spr_cata_icon</sprite>
+    <sprite>sprites\spr_pipe_small_top_left</sprite>
+    <sprite>sprites\spr_pipe_small_top_right</sprite>
+    <sprite>sprites\spr_pipe_small_bot_right</sprite>
+    <sprite>sprites\spr_pipe_small_bot_left</sprite>
+    <sprite>sprites\spr_pipe_small_knob_horz</sprite>
+    <sprite>sprites\spr_pipe_small_knob_vert</sprite>
+    <sprite>sprites\spr_pipe_small_vert</sprite>
+    <sprite>sprites\spr_pipe_small_horz</sprite>
+    <sprite>sprites\sprite44</sprite>
+    <sprite>sprites\spr_computer</sprite>
+    <sprite>sprites\spr_goal_big</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\bg_pipes_big</background>
+    <background>background\bg_flooretc</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -106,7 +119,19 @@
       <object>objects\obj_floor_bot</object>
       <object>objects\obj_floor_block</object>
       <object>objects\obj_dispenser</object>
+      <objects name="pipes">
+        <object>objects\obj_pipe_small_top_left</object>
+        <object>objects\obj_pipe_small_top_right</object>
+        <object>objects\obj_pipe_small_bot_right</object>
+        <object>objects\obj_pipe_small_bot_left</object>
+        <object>objects\obj_pipe_small_vert</object>
+        <object>objects\obj_pipe_small_horz</object>
+        <object>objects\obj_pipe_small_knob_vert</object>
+        <object>objects\obj_pipe_small_knob_horz</object>
+      </objects>
     </objects>
+    <object>objects\obj_camera</object>
+    <object>objects\obj_computer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_lvl1</room>
